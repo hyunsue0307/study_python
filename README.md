@@ -1,10 +1,13 @@
-# study_python repository
+#  github 프로젝트 폴더 가상환경&필요 모튤 설치방법
+1. 프로젝트 폴더 만들기 (1회)
+- mkcdir '폴더'
+- cd '폴더'
 
-기초 파이썬 기초 문법과 numpy 기본 문법을 학습하며 정리한 코드들을 기록한 공간입니다.
-전공 수업과 자율 학습을 통해 배운 내용을 꾸준히 기록하며, 지속적으로 업데이트됩니다.
+2. 가상환경 만들기 (1회)
+- python3 -m venv .venv
 
+3. 가상환경 활성
+- source .venv/venv/bin/activate
+>> (venv) or (.venv)
 
-## 목차
-
-
-
+4. 필요한 모듈 설정
