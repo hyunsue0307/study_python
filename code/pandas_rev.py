@@ -10,3 +10,20 @@ print('기본 series:\n', s1)
 #값+인덱스
 s2=pd.Series([90,80,70], index=['국어','영어','수학'])
 print('\n과목 점수 Series:\n',s2) #\n 한칸 띄어서
+
+#2-dataframe 생성하기
+import pandas as pd
+
+data={'이름':['현유','윤서','민지'],'나이':[21,21,23],'성별':['여','여','남']}
+
+df=pd.DataFrame(data)
+
+print(df)
+
+import matplotlib.pyplot as plt
+
+df['나이'].plot(kind='bar')
+plt.title('나이분포')
+plt.xlabel('사람 인덱스')
+plt.ylabel('나이')
+plt.show()
