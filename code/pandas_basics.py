@@ -37,9 +37,10 @@ data = {'name':['minji','hyunyoo','minsu'],'math':[90,80,100],'eng':[88,65,90]}
 
 df=pd.DataFrame(data)
 df.set_index('name', inplace=True) 
+#inplace=True 원본 데이터프레임에 바로 적용한다는 뜻.
 
-df.plot(kind='bar')
-plt.title('grade')
-plt.xlabel('name')
-plt.ylabel('score')
-plt.show()
+df.plot(kind='bar') #df.plot 은 pandas 에서 그래프 쉽게 그리도록 도와주는 메서드임.
+plt.title('grade') #제목
+plt.xlabel('name') #x축
+plt.ylabel('score') #y축
+plt.show() #화면 출력,호출
