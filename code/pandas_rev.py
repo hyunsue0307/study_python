@@ -27,3 +27,19 @@ plt.title('나이분포')
 plt.xlabel('사람 인덱스')
 plt.ylabel('나이')
 plt.show()
+
+#3-pandas dataframe + matplotlib 시각화 확장
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+data = {'이름':['철수','영희','민수'],'수학':[90,80,100],'영어':[88,65,90]}
+
+df=pd.DataFrame(data)
+df.set_index('이름', inplace=True) 
+
+df.plot(kind='bar')
+plt.title('학생별 성적')
+plt.xlabel('이름')
+plt.ylabel('점수')
+plt.show()
