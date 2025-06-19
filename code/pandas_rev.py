@@ -14,7 +14,7 @@ print('\n과목 점수 Series:\n',s2) #\n 한칸 띄어서
 #2-dataframe 생성하기
 import pandas as pd
 
-data={'이름':['현유','윤서','민지'],'나이':[21,21,23],'성별':['여','여','남']}
+data={'name':['hyunyoo','minji','kim'],'age':[21,21,23],'gender':['w','w','m']}
 
 df=pd.DataFrame(data)
 
@@ -22,10 +22,10 @@ print(df)
 
 import matplotlib.pyplot as plt
 
-df['나이'].plot(kind='bar')
-plt.title('나이분포')
-plt.xlabel('사람 인덱스')
-plt.ylabel('나이')
+df['age'].plot(kind='bar')
+plt.title('age spread')
+plt.xlabel('human index')
+plt.ylabel('age')
 plt.show()
 
 #3-pandas dataframe + matplotlib 시각화 확장
@@ -33,13 +33,13 @@ plt.show()
 import pandas as pd
 import matplotlib.pyplot as plt
 
-data = {'이름':['철수','영희','민수'],'수학':[90,80,100],'영어':[88,65,90]}
+data = {'name':['minji','hyunyoo','minsu'],'math':[90,80,100],'eng':[88,65,90]}
 
 df=pd.DataFrame(data)
-df.set_index('이름', inplace=True) 
+df.set_index('name', inplace=True) 
 
 df.plot(kind='bar')
-plt.title('학생별 성적')
-plt.xlabel('이름')
-plt.ylabel('점수')
+plt.title('grade')
+plt.xlabel('name')
+plt.ylabel('score')
 plt.show()
