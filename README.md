@@ -20,16 +20,12 @@
 
 
 ## 연락
-- a0220choi@gmail.com
+- Email: a0220choi@gmail.com
 궁금한 점이나 피드백은 언제든 환영합니다.
 
 ## To-Do
 - Pandas & Matplotlib 익히기
 - 미니 데이터 분석 프로젝트 진행
 - 다른 분들과 협업해보기
-
-
-## Contact
-- Email: a0220choi@gmail.com
 
 
