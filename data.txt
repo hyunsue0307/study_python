@@ -1,2 +1,0 @@
-I like Python but it can be annoying and slow sometimes.
-Python is fun, but annoying behavior makes it hard to love.
