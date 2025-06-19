@@ -1,0 +1,12 @@
+<<<<<<< HEAD
+#!/Users/uhyunfo/youtube_subtitle/.venv/bin/python
+=======
+#!/Users/uhyunfo/python_practice/.venv/bin/python
+>>>>>>> 0a20124 (readme 수정)
+# -*- coding: utf-8 -*-
+import re
+import sys
+from numpy.f2py.f2py2e import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
