@@ -14,6 +14,7 @@
 ## Study Logs
 [🔗 study_python Repository](https://github.com/hyunsue0307/study_python)  
 기초부터 실습까지 스스로 공부하며 정리한 저장소입니다.
+[설치 가이드 보기](install_guide.md)
 
 ### 학습 목차
 1. **Python 기초 문법**
