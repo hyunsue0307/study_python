@@ -182,7 +182,7 @@ print(x)
 import numpy as np
 import random
 sales = [86623, 33030, 38117]
-######################## 매우 중요!!!!!!!!!!
+######################## 중요!!!
 n_sales = np.array(sales) # np array
 filter =n_sales<40000 # true 인지 False 인지
 bad_sales = n_sales[filter] # 값을 알고싶다!
