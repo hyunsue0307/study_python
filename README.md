@@ -11,8 +11,8 @@
 Email: a0220choi@gmail.com
 
 To-Do  
-- Pandas & Matplotlib 익히기  
-- 미니 데이터 분석 프로젝트 진행  
-- 다른 분들과 협업해보기
+Pandas & Matplotlib 익히기  
+미니 데이터 분석 프로젝트 진행  
+다른 분들과 협업해보기
 
 
