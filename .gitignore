@@ -1,2 +1,10 @@
-무시
+# macOS
+.DS_Store
+
+# virtual environment
+.venv/
+
+# python
+__pycache__/
+*.pyc
 
