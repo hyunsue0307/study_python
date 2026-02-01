@@ -21,4 +21,16 @@ def calculate():
     total=menu_qty*menu_nu
     return total 
 
-print(calculate())
+calculate() # calculate() → 어떤 숫자 하나를 만들어냄 > 그냥 공중에 버린상태
+print(calculate()) # calculate 실행 // return total → 값 하나 반환 // print(그 값) → 화면에 출력
+
+
+## 보통 이렇게 쓰임 > 변수에 담기.
+
+result = calculate()
+print(result)
+
+## return 에 대한 정리!!
+# return은 값을 함수 밖으로 전달
+# print는 사람에게 보여주기 위한 출력
+
