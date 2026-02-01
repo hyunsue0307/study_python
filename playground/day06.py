@@ -33,4 +33,3 @@ print(result)
 ## return 에 대한 정리!!
 # return은 값을 함수 밖으로 전달
 # print는 사람에게 보여주기 위한 출력
-

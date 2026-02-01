@@ -22,14 +22,10 @@ print(f" 총 금액 : {result}")
 
 
 
-# git status
-# git add playground/day07.py
-# git commit -m "day07: 함수에 인자 전달로 계산 분리"
-
 
 # day07-2 : 할인 적용 총 금액 계산
 
-def calculate(x,y):
+def calculate(x,y): # x,y 를 명시하는것이 함수의 역할을 설명
     total=x*y
     if total >= 10000:
         result=total*0.1
@@ -37,5 +33,5 @@ def calculate(x,y):
         result=0
     return total-result
 
-result=calculate(menu_nu,menu_qt)
+result=calculate(menu_nu,menu_qt) # 실행부는 항상 아래
 print(f" 총 금액 : {result}")
