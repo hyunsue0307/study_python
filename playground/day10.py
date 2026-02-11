@@ -81,3 +81,23 @@ for i in range(3):
 for i in range(3):
     menu,qty=middle_menus[i] 
     print(f"{i+1}위 메뉴: {menu}\n수량: {qty}잔\n비중: {middle_ratios[i]*100:.1f}% ") 
+
+
+# 1위 메뉴: 아메리카노/수량: 18잔/비중: 56.2% 
+# 2위 메뉴: 아이스티/수량: 3잔/비중: 9.4% 
+# 3위 메뉴: 유자티/수량: 2잔/비중: 6.2% 
+
+# > 오픈, 미들시간대에서 아메리카노 비중이 56.2%로 가장 높다.(information) > 아메리카노가 가장 많이 주문됨.(insight)
+
+
+# 1위 메뉴: 아메리카노/수량: 44잔/비중: 44.0% 
+# 2위 메뉴: 아이스티/수량: 8잔/비중: 8.0% 
+# 3위 메뉴: 카페라떼/수량: 6잔/비중: 6.0% 
+
+# > 상위3 메뉴 비중 58%.(information) > 커피가 여전히 비중이 높지만 여러가지 메뉴가 고르게 섞임.(insight)
+
+
+## 행동으로 이어지지 않는 분석은 인사이트가 아니다.
+
+
+# The key insight is that preparation priorities should be adjusted based on time-based menu demand patterns.
